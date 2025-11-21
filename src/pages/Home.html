@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>King Collegeu</title>
+  <link rel="stylesheet" href="../styles/output.css">
+</head>
+
+<body class="m-0 min-h-screen w-full bg-fixed bg-image2 bg-cover p-0 select-red-500">
+
+
+  <!-- navigation bar -->
+  <div
+    class="nav p-2 lg:gap-y-0 gap-y-2 lg:px-10 md:py-5 flex lg:flex-row flex-col sm:items-center justify-between bg-red-400">
+
+    <!-- icon section -->
+    <div class="icon flex flex-wrap text-white items-center gap-x-3 sm:gap-x-7">
+
+      <!-- icon facebook -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
+        aria-label="Facebook">
+        <title>Facebook</title>
+        <path fill="currentColor"
+          d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07c0 5 3.66 9.14 8.44 9.93v-7.03H7.9v-2.9h2.54V9.41c0-2.5 1.5-3.88 3.79-3.88 1.1 0 2.25.2 2.25.2v2.48h-1.27c-1.25 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.9h-2.34V22c4.78-.79 8.44-4.93 8.44-9.93z" />
+      </svg>
+
+
+      <!-- icon instagram -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
+        aria-label="Instagram">
+        <title>Instagram</title>
+        <path fill="currentColor"
+          d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 6.2A4.8 4.8 0 1 0 16.8 13 4.8 4.8 0 0 0 12 8.2zm6.6-2.3a1.1 1.1 0 1 0 1.1 1.1 1.1 1.1 0 0 0-1.1-1.1zM12 9.6A2.4 2.4 0 1 1 9.6 12 2.4 2.4 0 0 1 12 9.6z" />
+      </svg>
+
+      <!-- icon x/ twitter -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
+        aria-label="Twitter">
+        <title>Twitter</title>
+        <path fill="currentColor"
+          d="M22 5.92c-.66.29-1.36.48-2.1.57a3.66 3.66 0 0 0 1.6-2.03 7.28 7.28 0 0 1-2.32.9 3.63 3.63 0 0 0-6.19 3.3A10.3 10.3 0 0 1 3.16 4.9a3.63 3.63 0 0 0 1.12 4.84 3.57 3.57 0 0 1-1.64-.45v.05a3.63 3.63 0 0 0 2.91 3.56c-.4.11-.83.14-1.27.05a3.63 3.63 0 0 0 3.39 2.52A7.27 7.27 0 0 1 2 18.57a10.25 10.25 0 0 0 5.56 1.63c6.67 0 10.32-5.53 10.32-10.32v-.47A7.4 7.4 0 0 0 22 5.92z" />
+      </svg>
+
+      <!-- icon linked in -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
+        aria-label="LinkedIn">
+        <title>LinkedIn</title>
+        <path fill="currentColor"
+          d="M20.45 20.45h-3.56v-5.6c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.95v5.69H8.39V9h3.42v1.56h.05c.48-.9 1.66-1.85 3.42-1.85 3.66 0 4.33 2.41 4.33 5.55v6.73zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22 0H2v24h20V0z"
+          opacity="0" />
+        <rect width="0" height="0" fill="none" />
+        <path fill="currentColor"
+          d="M6.94 8.94H3.56V20.4h3.38zM5.25 6.63a1.95 1.95 0 1 1 0-3.9 1.95 1.95 0 0 1 0 3.9zM21.99 20.4h-3.38v-5.6c0-1.34-.02-3.06-1.86-3.06-1.86 0-2.15 1.46-2.15 2.97v5.69h-3.38V9h3.25v1.56h.05c.45-.85 1.6-1.85 3.28-1.85 3.5 0 4.14 2.3 4.14 5.28v6.41z" />
+      </svg>
+
+    </div>
+
+    <!-- first nav links section -->
+    <div class="nav-link flex items-center gap-x-2 sm:gap-x-10 text-white uppercase sm:font-semibold">
+      <a href="">Students</a>
+      <a href="">Staffs</a>
+      <a href="">Alumni</a>
+      <a href="">Visit</a>
+      <a href="">Media</a>
+
+
+      <!-- Search icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Search">
+        <title>Search</title>
+        <path fill="currentColor"
+          d="M10.5 3a7.5 7.5 0 1 0 4.74 13.1l4.33 4.33 1.41-1.41-4.33-4.33A7.5 7.5 0 0 0 10.5 3zm0 2a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11z" />
+      </svg>
+
+    </div>
+
+  </div>
+
+  <!-- Section with the video -->
+
+  <div class="bg-video1">
+
+    <!-- covering div -->
+
+    <div class="w-full h-full bg-zinc-800/60 pb-44">
+      <!-- other second nav section -->
+      <div
+        class="second-nav max-lg:pt-10 text-gray-200 gap-y-2 flex flex-col max-lg:px-3 max-lg:items-start items-center">
+
+        <!-- logo -->
+        <div class="logo flex flex-row-reverse items-center max-lg:hidden h-full gap-x-3">
+          <div class="header">
+            <h1 class=" font-bold text-2xl tracking-tighter">King College</h1>
+            <p>SINCE 1890</p>
+          </div>
+          <div class="h-[6vw] w-[6vw] ">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-full" viewBox="0 0 24 24" role="img"
+              aria-label="Graduation Cap">
+              <title>Graduation Cap</title>
+              <path fill="currentColor"
+                d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zm4 12.27l-4 2.18-4-2.18V14l4 2.18L16 14v1.27z" />
+            </svg>
+
+          </div>
+        </div>
+
+        <!-- links -->
+        <div class="links  font-bold flex items-center max-lg:hidden gap-x-24 tracking-tight">
+          <a href=""
+            class="hover:underline-offset-8 duration-300 hover:underline hover:decoration-red-400 hover:decoration-2">Home</a>
+          <a href=""
+            class="hover:underline-offset-8 duration-300 hover:underline hover:decoration-red-400 hover:decoration-2">Academics</a>
+          <a href=""
+            class="hover:underline-offset-8 duration-300 hover:underline hover:decoration-red-400 hover:decoration-2">Admissions</a>
+          <a href=""
+            class="hover:underline-offset-8 duration-300 hover:underline hover:decoration-red-400 hover:decoration-2">Research</a>
+        </div>
+
+        <!-- hero section -->
+
+        <div class="flex flex-col gap-y-5 items-start lg:items-center">
+          <h1 class="text-7xl uppercase font-extrabold mt-24 max-lg:mt-5">
+            Welcome to King College
+          </h1>
+          <p class="text-3xl lg:text-center">
+            A place with diverse nationalities, cultures and ideas
+          </p>
+        </div>
+
+
+        <!-- the button -->
+
+        <div class="hero section button mt-16">
+          <button
+            class="px-5 py-3 bg-red-400 duration-300 text-xl font-bold hover:bg-slate-800 hover:text-white cursor-pointer">
+            Start your application
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  about us -->
+  <div class="about-us p-2 gap-x-20 lg:py-32 lg:px-10 grid max-xl:gap-y-10 grid-cols-1 xl:grid-cols-2 bg-white">
+    <!-- image -->
+    <div class="bg-image4 bg-cover bg-no-repeat w-auto h-full max-xl:h-[60vh]"></div>
+
+    <!-- content -->
+    <div class="flex flex-col gap-y-4 xl:gap-y-10">
+
+      <!-- title -->
+      <div class="tracking-tighter leading-relaxed">
+        <h1 class="text-4xl text-slate-950 font-bold">
+          King College of Business and Management
+        </h1>
+      </div>
+
+      <!-- content 1 -->
+      <div>
+        <p class="tracking-tight text-slate-700">
+          King College has established a reputation for excellence in business and management education, providing high
+          quality, industry responsive programs relevant to the national and global marketplace.
+        </p>
+      </div>
+
+      <!-- content 2 -->
+      <div>
+        <p class="tracking-tight text-slate-700">
+          Studying business at King College is a great way to enhance your career. In today's competitive environment,
+          professionals need the skills to adapt to an ever-changing business world. At King College, we give our
+          students
+          the skills that enable them to deal with real-world business issues.
+        </p>
+      </div>
+
+      <!-- button on the content side -->
+      <div class="button">
+        <button
+          class="px-5 py-3 duration-300 text-white bg-red-400 text-xl font-bold hover:bg-slate-800 hover:text-white cursor-pointer">
+          Discover King College
+        </button>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- Get started section -->
+  <div class="bg-red-400 flex flex-col gap-y-16 max-sm:items-start max-sm:px-2 items-center pt-20 pb-16">
+
+    <!-- title -->
+    <div class="tracking-tighter leading-relaxed">
+      <h1 class="text-4xl text-white font-bold">
+        Let's get you started
+      </h1>
+    </div>
+
+    <!-- Buttons in a group -->
+    <div class="flex max-sm:flex-col max-sm:gap-x-0 max-sm:gap-y-4 gap-x-6">
+      <button
+        class="px-8 py-4 duration-300 bg-white text-black text-xl font-bold hover:bg-slate-700 hover:text-white cursor-pointer">Find
+        The Right Program</button>
+      <button
+        class="px-8 py-4 duration-300 bg-white text-black text-xl font-bold hover:bg-slate-700 hover:text-white cursor-pointer">Start
+        Your Application</button>
+      <button
+        class="px-8 py-4 duration-300 bg-white text-black text-xl font-bold hover:bg-slate-700 hover:text-white cursor-pointer">Request
+        Information</button>
+    </div>
+  </div>
+
+  <!-- stories -sectino -->
+
+  <div class="flex flex-col gap-y-16 bg-white py-32">
+    <!-- Stories section -->
+
+    <div class="storie">
+
+      <!-- Upper side of stories -->
+      <div class="tracking-tighter px-10 flex justify-between leading-relaxed">
+        <h1 class="text-4xl text-slate-900 font-bold">Student Stories</h1>
+        <button
+          class="px-5 py-3 duration-300 text-white bg-red-400 text-xl font-bold hover:bg-slate-800 hover:text-white cursor-pointer">More
+          student stories</button>
+      </div>
+    </div>
+
+    <!-- student stories -->
+    <div class="stories-section p-2 xl:px-10 gap-x-16 grid max-xl:gap-y-10 grid-cols-1 xl:grid-cols-2 bg-white">
+
+      <!-- Image side -->
+      <div class="bg-image5 bg-cover bg-no-repeat w-auto h-full max-xl:h-[60vh]"></div>
+
+      <!-- stories section -->
+      <div class="flex flex-col gap-y-24">
+        <!-- stories section -->
+        <div class="flex gap-x-7">
+
+          <!-- stories title -->
+          <div class="tracking-tighter leading-relaxed">
+            <h1 class="text-5xl text-red-400 font-bold">01</h1>
+          </div>
+
+          <!-- names and their stories -->
+          <div class="flex flex-col gap-y-3">
+            <div class="tracking-tighter leading-relaxed">
+              <h1 class="text-3xl text-slate-700 font-semibold">My Experience with General Education</h1>
+            </div>
+
+            <!-- names and parts -->
+            <div class="flex justify-between">
+              <h1 class="font-semibold text-slate-600">Morgan McLaughlin</h1>
+              <h1 class="font-medium text-slate-500"> Graduate Student</h1>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- stories section -->
+        <div class="flex gap-x-7">
+
+          <!-- stories title -->
+          <div class="tracking-tighter leading-relaxed">
+            <h1 class="text-5xl text-red-400 font-bold">02</h1>
+          </div>
+
+          <!-- names and their stories -->
+          <div class="flex flex-col gap-y-3">
+            <div class="tracking-tighter leading-relaxed">
+              <h1 class="text-3xl text-slate-700 font-semibold">My top 5 King College moments</h1>
+            </div>
+
+            <!-- names and parts -->
+            <div class="flex justify-between">
+              <h1 class="font-semibold text-slate-600">Denis Henderson</h1>
+              <h1 class="font-medium text-slate-500"> Undergraduate Student</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- stories section -->
+        <div class="flex gap-x-7">
+
+          <!-- stories title -->
+          <div class="tracking-tighter leading-relaxed">
+            <h1 class="text-5xl text-red-400 font-bold">03</h1>
+          </div>
+
+          <!-- names and their stories -->
+          <div class="flex flex-col gap-y-3">
+            <div class="tracking-tighter leading-relaxed">
+              <h1 class="text-3xl text-slate-700 font-semibold">Should you consider taking a gap year</h1>
+            </div>
+
+            <!-- names and parts -->
+            <div class="flex justify-between">
+              <h1 class="font-semibold text-slate-600">Charlie Doyle</h1>
+              <h1 class="font-medium text-slate-500"> Graduate Student</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- programmes-section -->
+
+  <div class="bg-slate-800/70 p-2 xl:px-10 py-20">
+
+    <!-- title -->
+    <div class="tracking-tighter px-10 flex justify-between leading-relaxed">
+      <h1 class="text-6xl text-white font-bold">
+        Explore <span class="underline underline-offset-8">Majors</span> &amp;<span
+          class="underline underline-offset-8">Programs</span>
+      </h1>
+    </div>
+  </div>
+</body>
+
+</html>

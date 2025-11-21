@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+
+.bg-image1 {
+    background-image: url('../images/image1.jpg');
+}
+.bg-image2 {
+    background-image: url('../images/image2.jpg');
+}
+.bg-image3 {
+    background-image: url('../images/image3.jpg');
+}
+.bg-image4 {
+    background-image: url('../images/image5.jpg');
+}
+.bg-video1 {
+    background-image: url('../images/vid1.webm');
+}
+
+.bg-image5{
+    background-image: url('../images/image15.jpg');
+}
+
