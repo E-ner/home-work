@@ -8,39 +8,170 @@
     <link rel="stylesheet" href="../styles/output.css">
 </head>
 
-<bod>
-    <div
-        class="second-nav px-10 absolute w-full bg-red-400 text-stone-200 gap-y-2 flex justify-between max-lg:pl-4 max-lg:items-start items-center">
+<body class="m-0 min-h-screen w-full font-serif">
 
-        <!-- logo -->
-        <div class="logo flex flex-row-reverse items-center max-lg: h-full gap-x-3">
-            <div class="header">
-                <h1 class=" font-bold text-2xl tracking-tighter">King College</h1>
-                <p>SINCE 1890</p>
-            </div>
-            <div class="h-[6vw] w-[6vw] text-black">
+    <!-- Navigation -->
+    <div class="w-full px-4 md:px-10 bg-red-400 text-stone-100 flex justify-between items-center h-16">
+
+        <div class="flex items-center gap-x-3">
+            <div class="h-10 w-10 text-black">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-full" viewBox="0 0 24 24" role="img"
                     aria-label="Graduation Cap">
                     <title>Graduation Cap</title>
                     <path fill="currentColor"
                         d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zm4 12.27l-4 2.18-4-2.18V14l4 2.18L16 14v1.27z" />
                 </svg>
-
+            </div>
+            <div>
+                <h1 class="font-bold text-2xl tracking-tighter">King College</h1>
+                <p class="text-xs -mt-1 opacity-80">SINCE 1890</p>
             </div>
         </div>
 
-        <!-- links -->
-        <div class="links  font-bold flex items-center max-lg gap-x-24 tracking-tight">
-            <a href=""
-                class="hover:underline-offset-8 duration-300 hover:underline hover:decoration-red-400 hover:decoration-2">Home</a>
-            <a href=""
-                class="hover:underline-offset-8 duration-300 hover:underline hover:decoration-red-400 hover:decoration-2">Academics</a>
-            <a href=""
-                class="hover:underline-offset-8 duration-300 hover:underline hover:decoration-red-400 hover:decoration-2">Admissions</a>
-            <a href=""
-                class="hover:underline-offset-8 duration-300 hover:underline hover:decoration-red-400 hover:decoration-2">Research</a>
+        <div class="hidden lg:flex font-bold items-center gap-x-10 tracking-tight">
+            <a href="#" class="hover:underline hover:decoration-red-400 hover:decoration-2">Home</a>
+            <a href="#" class="hover:underline hover:decoration-red-400 hover:decoration-2">Academics</a>
+            <a href="#" class="hover:underline hover:decoration-red-400 hover:decoration-2">Admissions</a>
+            <a href="#" class="hover:underline hover:decoration-red-400 hover:decoration-2">Research</a>
+        </div>
+
+        <button class="lg:hidden text-2xl">
+            &#9776;
+        </button>
+    </div>
+
+    <!-- content section -->
+
+    <div class="flex flex-col md:items-center py-24 max-md:px-6 gap-y-10">
+        <div>
+            <h1 class="text-5xl font-semibold text-black">Academics</h1>
+        </div>
+
+        <!-- content side -->
+        <div class="md:w-1/2">
+            <h1 class="text-xl md:text-center">
+                Studying business at UniCamp is a great way to enhance your career. In today's competitive environment,
+                professionals need the skills to adapt to an ever-changing business world.
+            </h1>
+        </div>
+
+        <!-- numbers -->
+
+        <div class="flex md:justify-between max-md:gap-x-10 max-sm:gap-x-5 md:gap-x-10 md:w-1/2 pt-16">
+            <div class="flex flex-col md:items-center">
+                <h1 class="text-7xl max-sm:text-5xl font-bold text-red-400">95</h1>
+                <h1 class="font-semibold">Student Nationalities</h1>
+            </div>
+            <div class="flex flex-col md:items-center">
+                <h1 class="text-7xl max-sm:text-5xl font-bold text-red-400">12</h1>
+                <h1 class="font-semibold">Different Majors</h1>
+            </div>
+            <div class="flex flex-col md:items-center">
+                <h1 class="text-7xl max-sm:text-5xl font-bold text-red-400">70%</h1>
+                <h1 class="font-semibold">International Students</h1>
+            </div>
         </div>
     </div>
-    </body>
+
+    <!-- Video section -->
+
+    <div class="w-full md:px-20 grid grid-cols-1 grid-rows-1">
+        <img src="../images/image12.jpg" class="w-full row-start-1 col-start-1">
+
+
+        <!-- Masking -->
+        <div class="w-full h-full row-start-1 col-start-1 bg-black/30"></div>
+        <div class="w-full h-full row-start-1 col-start-1 flex items-center justify-center">
+            <button class="w-[5vw] h-[5vw] animate-ping rounded-full bg-white"></button>
+        </div>
+    </div>
+
+    <!-- other section -->
+    <div class="container py-20 px-4 sm:px-6 lg:px-20 space-y-20">
+        <section class="grid grid-cols-1 md:grid-cols-2 items-center gap-6 md:gap-12">
+            <!-- image -->
+            <div class="order-1 md:order-1">
+                <img src="../images/image6.jpg" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 800px"
+                    alt="Students learning together on campus" loading="lazy"
+                    class="w-full h-52 sm:h-64 md:h-80 lg:h-[60vh] object-cover  shadow-sm" />
+            </div>
+
+            <!-- card -->
+            <div
+                class="order-2 md:order-2 bg-white p-6 sm:p-8 md:p-12 lg:p-16  shadow-md transform md:-translate-x-6 lg:-translate-x-12">
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-serif mb-3">Continuing Learning</h2>
+                <div class="w-16 md:w-28 h-0.5 bg-red-400 mb-6 mx-auto md:mx-0"></div>
+                <p class="text-gray-700 mb-6 text-base sm:text-lg md:text-base lg:text-lg leading-relaxed">
+                    The Programmes in Continuing Education helps people preparing for a career change or entrance into
+                    professional school, or those pursuing advanced training in their fields.
+                </p>
+
+                <div class="flex justify-center md:justify-start">
+                    <a href="#"
+                        class="inline-flex items-center justify-center bg-red-400 hover:bg-red-500 text-white font-semibold px-6 py-3 w-full sm:w-auto text-center md:text-left transition">
+                        Learn more <span class="ml-2">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 items-center gap-6 md:gap-12">
+            <div
+                class="order-2 md:order-1 bg-white p-6 sm:p-8 md:p-12  shadow-md transform md:translate-x-0 lg:-translate-x-12">
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-serif mb-3">Undergraduate Studies</h2>
+                <div class="w-16 md:w-28 h-0.5 bg-red-400 mb-6 mx-auto md:mx-0"></div>
+                <p class="text-gray-700 mb-6 text-base sm:text-lg md:text-base lg:text-lg leading-relaxed">
+                    UniCamp offers a range of bachelor, associate and honours degrees. Undergraduate students benefit
+                    from extraordinary resources. Browse our undergraduate programs and find the right one for you.
+                </p>
+
+                <div class="flex justify-center md:justify-start">
+                    <a href="#"
+                        class="inline-flex items-center justify-center bg-red-400 hover:bg-red-500 text-white font-semibold px-6 py-3  w-full sm:w-auto transition">
+                        Learn more <span class="ml-2">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- image -->
+            <div class="order-1 md:order-2">
+                <img src="../images/image10.jpg" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 800px"
+                    alt="Undergraduate students on campus" loading="lazy"
+                    class="w-full h-52 sm:h-64 md:h-80 lg:h-[60vh] object-cover  shadow-sm" />
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 items-center gap-6 md:gap-12">
+            <div class="order-1 md:order-1">
+                <img src="../images/image4.jpg" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 800px"
+                    alt="Graduate students in a seminar" loading="lazy"
+                    class="w-full h-52 sm:h-64 md:h-80 lg:h-[60vh] object-cover  shadow-sm" />
+            </div>
+
+            <div
+                class="order-2 md:order-2 bg-white p-6 sm:p-8 md:p-12 lg:p-16  shadow-md transform md:-translate-x-6 lg:-translate-x-12">
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-serif mb-3">Graduate Studies</h2>
+                <div class="w-16 md:w-28 h-0.5 bg-red-400 mb-6 mx-auto md:mx-0"></div>
+                <p class="text-gray-700 mb-6 text-base sm:text-lg md:text-base lg:text-lg leading-relaxed">
+                    We offer a unique experience to graduate students. Boost your career with a postgraduate
+                    qualification. Flexible study options include graduate certificates, graduate diplomas or master's
+                    degrees.
+                </p>
+
+                <div class="flex justify-center md:justify-start">
+                    <a href="#"
+                        class="inline-flex items-center justify-center bg-red-400 hover:bg-red-500 text-white font-semibold px-6 py-3  w-full sm:w-auto transition">
+                        Learn more <span class="ml-2">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- career development -->
+     <div>
+        
+     </div>
+</body>
 
 </html>
